@@ -17,10 +17,13 @@
             
             <a-marker-camera preset="hiro">
               <a-entity id="produto"
-                        position="0 90 0"
+                        position="0 0 0"
                         scale="10 10 10"
+                        rotation="90 0 0"
                         gltf-model="#modelo">
               </a-entity>
+                 <a-entity light="type: ambient; color: #888"></a-entity>
+                 <a-entity light="type: directional; color: #fff" position="-1 2 1"></a-entity>
              </a-marker-camera>
   
 </a-scene>
